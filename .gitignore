@@ -11,3 +11,11 @@
 *.lai
 *.la
 *.a
+
+# Eclipse & NetBeans
+.settings
+.project
+.buildpath
+nbproject
+build
+dist
