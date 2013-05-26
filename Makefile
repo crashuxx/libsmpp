@@ -28,7 +28,7 @@ build-tests:
 
 # run tests
 test: test/main.o
-	$(CXX) -Iinclude -Wl,-rpath=./ -Wall -Werror -Lbin -lsmpp -o bin/test test/main.cpp
+	$(CXX) -Iinclude -Wl,-rpath=./:./bin -Wall -Werror -Lbin -lsmpp -o bin/test test/main.cpp
 
 # help
 help:
