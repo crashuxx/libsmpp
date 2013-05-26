@@ -12,6 +12,9 @@
 *.la
 *.a
 
+# Emacs
+[#]*[#]
+
 # Eclipse & NetBeans
 .settings
 .project
