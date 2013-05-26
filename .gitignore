@@ -14,7 +14,7 @@
 
 # Emacs
 [#]*[#]
-*.\~
+*.~
 *.ede
 
 # Eclipse & NetBeans
